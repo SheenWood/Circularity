@@ -56,24 +56,3 @@ function loop() {
 for (var i = 0; i < num_particles; i++)
     particles.push(new Particle());
 loop();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
