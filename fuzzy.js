@@ -22,8 +22,8 @@ function GetRandomColor() {
 var Particle = function () {
     this.x = canvas.width * Math.random();
     this.y = canvas.height * Math.random();
-    this.vx = 1 * Math.random() - 3;//x axis
-    this.vy = 1 * Math.random() - 3;//y axis
+    this.vx = 1 * Math.random() - 1;//x axis
+    this.vy = 1 * Math.random() - 1;//y axis
     this.Color = GetRandomColor();
 }
 //Ading two methods
@@ -32,7 +32,7 @@ Particle.prototype.Draw = function (ctx) {
     //change fuzzy boi size
     ctx.fillRect(this.x, this.y, 25, 25);
 }
-//................................................................................................................................        ya know im just typing things here cuz i ran outa things to do and now im bored lol i just ran outta things to do fam also if ur reading this send an email to me saying hi its guppyexpress@gmail.com                                                                                                                                                                                                                          OwO wats this? an eastew egg? i hope you enjoyed my website its, made fwom puwe bowdom and has no actuaw puwpose, it is just that feewing u get in uw weg when u sit down fow too wong, ow the taste of spawkwing watew, ow awso micwowave noises, haha weww enjoy :D
+                                                                                                                                                                                                                   OwO wats this? an eastew egg? i hope you enjoyed my website its, made fwom puwe bowdom and has no actuaw puwpose, it is just that feewing u get in uw weg when u sit down fow too wong, ow the taste of spawkwing watew, ow awso micwowave noises, haha weww enjoy :D
 Particle.prototype.Update = function () {
     this.x += this.vx;
     this.y += this.vy;
